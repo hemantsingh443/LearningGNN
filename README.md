@@ -1,0 +1,1 @@
+this repo is about me learning about GNNs (graph neural networks) and PINNs (physics-informed neural networks)
