@@ -21,14 +21,14 @@ A GCN updates each node’s representation by **aggregating neighbor features**.
 
 The update rule is:
 
-![GCN Update Rule](https://latex.codecogs.com/svg.latex?H%5E%7B(l%2B1)%7D%20%3D%20%5Csigma%5Cbig(%20%5Ctilde%7BD%7D%5E%7B-1/2%7D%20%5Ctilde%7BA%7D%20%5Ctilde%7BD%7D%5E%7B-1/2%7D%20H%5E%7B(l)%7D%20W%5E%7B(l)%7D%5Cbig))
+![GCN Update Rule](https://latex.codecogs.com/svg.latex?%5Cbg_white%20H%5E%7B(l%2B1)%7D%20%3D%20%5Csigma%5Cbig(%20%5Ctilde%7BD%7D%5E%7B-1/2%7D%20%5Ctilde%7BA%7D%20%5Ctilde%7BD%7D%5E%7B-1/2%7D%20H%5E%7B(l)%7D%20W%5E%7B(l)%7D%5Cbig))
 
 Where:
-- ![A](https://latex.codecogs.com/svg.latex?%5Ctilde%7BA%7D%20%3D%20A%2BI) = adjacency matrix with self-loops.
-- ![D](https://latex.codecogs.com/svg.latex?%5Ctilde%7BD%7D) = degree matrix.
-- ![H^(l)](https://latex.codecogs.com/svg.latex?H%5E%7B(l)%7D) = node features at layer *l*.
-- ![W^(l)](https://latex.codecogs.com/svg.latex?W%5E%7B(l)%7D) = learnable weights.
-- ![σ](https://latex.codecogs.com/svg.latex?%5Csigma) = nonlinearity (ReLU).
+- ![A](https://latex.codecogs.com/svg.latex?%5Cbg_white%20%5Ctilde%7BA%7D%20%3D%20A%2BI) = adjacency matrix with self-loops.
+- ![D](https://latex.codecogs.com/svg.latex?%5Cbg_white%20%5Ctilde%7BD%7D) = degree matrix.
+- ![H^(l)](https://latex.codecogs.com/svg.latex?%5Cbg_white%20H%5E%7B(l)%7D) = node features at layer *l*.
+- ![W^(l)](https://latex.codecogs.com/svg.latex?%5Cbg_white%20W%5E%7B(l)%7D) = learnable weights.
+- ![σ](https://latex.codecogs.com/svg.latex?%5Cbg_white%20%5Csigma) = nonlinearity (ReLU).
 
 ---
 
